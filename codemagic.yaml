@@ -5,7 +5,7 @@ workflows:
         instance_type: linux_x2
         max_build_duration: 120
         environment:
-            flutter: dev
+            flutter: stable
         scripts:
             - sudo apt-get update
             - sudo apt install docker.io
