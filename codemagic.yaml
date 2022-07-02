@@ -1,0 +1,13 @@
+workflows:
+    
+    flutter-widget:
+        name: Flutter Widget
+        instance_type: linux
+        max_build_duration: 120
+        environment:
+            flutter: dev
+        scripts:
+            - sudo apt-get update
+            - sudo apt install docker.io
+            - sudo snap install docker
+            - docker --version
