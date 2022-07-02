@@ -8,6 +8,4 @@ workflows:
             flutter: stable
         scripts:
             - sudo apt-get update
-            - sudo apt install docker.io
-            - sudo snap install docker
-            - docker --version
+            - sleep 9999
