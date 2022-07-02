@@ -2,7 +2,7 @@ workflows:
     
     flutter-widget:
         name: Flutter Widget
-        instance_type: linux
+        instance_type: linux_x2
         max_build_duration: 120
         environment:
             flutter: dev
